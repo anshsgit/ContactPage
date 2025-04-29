@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    gap: 81px;
+    align-items: center;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.container section img {
+    height: 572px;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+
+.innerButtonContainer {
+    display: flex;
+    gap: 32px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formEntry {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.formEntry label {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    padding: 0 5px;
+    background-color: white;
+}
+
+.formEntry input{
+    height: 40px;
+}
+
+.formEntryText input{
+    height: 120px;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button button {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 18px;
+    width: 220px;
+    cursor: pointer;
+}
